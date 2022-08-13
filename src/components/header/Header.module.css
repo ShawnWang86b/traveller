@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  width: 50%;
+}
+
+.app-header {
+  background-color: #fffdf6 !important;
+}
+
+.main-header {
+  background-color: #fffdf6 !important;
+  height: 60px;
+  line-height: 60px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.title {
+  margin-bottom: 0 !important;
+  align-self: center;
+}
+
+.search-input {
+  align-self: center;
+  margin-left: 37px;
+  width: 350px !important;
+}
+
+.search-input button {
+  color: white !important;
+  background-color: #8dc4e9 !important;
+}
+
+/* .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button:not(.ant-btn-primary) {
+  color: #fffdf6;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,11 @@
+.card-carousel-page-1__content {
+  display: flex !important;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card-carousel-page-2__content {
+  display: flex !important;
+  gap: 15px;
+  justify-content: center;
+}

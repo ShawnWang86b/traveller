@@ -1,0 +1,54 @@
+.card {
+  width: 278px;
+  position: relative !important;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+  transition: 1000ms ease;
+}
+
+.card img {
+  transition: 1000ms ease;
+}
+
+.card-image-cover {
+  overflow: hidden !important;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.button-group button {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-left {
+  margin-left: -5px;
+}
+
+.button-title {
+  margin-left: 5px;
+}
+
+.card-image__tag {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}

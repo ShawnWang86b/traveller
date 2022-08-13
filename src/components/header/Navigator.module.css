@@ -1,0 +1,6 @@
+.bottom-header {
+  display: flex;
+  justify-content: center;
+  color: #fffdf6 !important;
+  background-color: #8dc4e9 !important;
+}

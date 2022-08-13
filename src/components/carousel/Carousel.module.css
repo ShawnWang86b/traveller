@@ -1,0 +1,16 @@
+.slider {
+  height: 250px;
+  overflow: hidden;
+}
+
+.slider_1 {
+  display: flex !important;
+  justify-items: center;
+  gap: 15px;
+}
+
+.slider_2 {
+  display: flex !important;
+  justify-items: center;
+  gap: 15px;
+}

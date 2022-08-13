@@ -1,0 +1,9 @@
+.Footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  font-size: 10px !important;
+}
